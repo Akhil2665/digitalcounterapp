@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.page-container {
+  min-height: 100vh;
+  font-family: 'roboto';
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+}
+.timer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .timer-content {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.counter-setting-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  margin-right: 20px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.icon-button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.time-in-minutes {
+  background-image: linear-gradient(to right, #ffffff, #00d9f5);
+  border-radius: 8px;
+  border-width: 0px;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.set-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adjust-buttons {
+  font-size: 28px;
+  font-weight: 600;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.timer {
+  font-weight: 700;
+  color: #00d9f5;
+  font-size: 26px;
+}
